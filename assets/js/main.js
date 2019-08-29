@@ -26,6 +26,7 @@
 			window.setTimeout(function() {
 				$body.removeClass('is-preload');
 			}, 100);
+			// document.querySelector('video').playbackRate = 0.6;
 		});
 
 	// Mobile?
