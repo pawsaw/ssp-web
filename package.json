@@ -1,0 +1,23 @@
+{
+  "name": "ssp-web",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass-compiler": "node-sass assets/sass/main.scss assets/css/main.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pawsaw/ssp-web.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pawsaw/ssp-web/issues"
+  },
+  "homepage": "https://github.com/pawsaw/ssp-web#readme",
+  "devDependencies": {
+    "node-sass": "^4.13.0"
+  }
+}
