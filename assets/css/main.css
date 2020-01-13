@@ -2170,18 +2170,18 @@ button,
   #menu ul {
     list-style: none;
     padding: 0; }
-    #menu ul.decent-links {
+    #menu ul.sublinks {
       color: #38503d;
       font-weight: 800;
       font-size: 70%; }
-      #menu ul.decent-links > li {
+      #menu ul.sublinks > li {
         display: inline-block;
         border: 0;
         border-right: 1px solid #38503d;
         margin: 0 0.5em 0 0;
         padding: 0 0.5em 0 0;
         text-decoration: none; }
-        #menu ul.decent-links > li:last-child {
+        #menu ul.sublinks > li:last-child {
           border: 0; }
     #menu ul > li {
       border-top: solid 1px rgba(0, 0, 0, 0.125);
