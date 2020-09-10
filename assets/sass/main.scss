@@ -1187,7 +1187,7 @@ button,
   .image {
     @include vendor("order", "1");
     border-radius: 0;
-    width: 40%;
+    width: 45%;
 
     img {
       border-radius: 0;
@@ -1199,7 +1199,7 @@ button,
     @include padding(2em, 4em);
     @include vendor("order", "2");
     max-width: 48em;
-    width: 60%;
+    width: 55%;
   }
 
   &:nth-child(2n) {
@@ -1214,13 +1214,23 @@ button,
     }
   }
 
-  @include breakpoint("<=large") {
+  @include breakpoint("<=xlarge") {
     .image {
       width: 45%;
     }
 
     .content {
       width: 55%;
+    }
+  }
+
+  @include breakpoint("<=large") {
+    .image {
+      width: 50%;
+    }
+
+    .content {
+      width: 50%;
     }
   }
 
