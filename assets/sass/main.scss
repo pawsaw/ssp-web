@@ -19,24 +19,24 @@
   (
     xlarge: (
       1281px,
-      1680px
+      1680px,
     ),
     large: (
       981px,
-      1280px
+      1280px,
     ),
     medium: (
       737px,
-      980px
+      980px,
     ),
     small: (
       481px,
-      736px
+      736px,
     ),
     xsmall: (
       null,
-      480px
-    )
+      480px,
+    ),
   )
 );
 
@@ -1910,7 +1910,10 @@ body.is-preload {
 #main {
   > header {
     @include padding(12em, 0);
-    @include vendor('background-image', ('linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5))', 'url("../../images/banner.jpg")'));
+    @include vendor(
+      "background-image",
+      ("linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5))", 'url("../../images/banner.jpg")')
+    );
     background-attachment: fixed;
     background-position: center center;
     background-repeat: no-repeat;
@@ -2035,7 +2038,10 @@ body.is-mobile {
 
 body.landing {
   #page-wrapper {
-    @include vendor('background-image', ('linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5))', 'url("../../images/banner.jpg")'));
+    @include vendor(
+      "background-image",
+      ("linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5))", 'url("../../images/banner.jpg")')
+    );
     background-attachment: fixed;
     background-position: center center;
     background-repeat: no-repeat;
@@ -2095,7 +2101,8 @@ body.is-mobile {
   margin-top: 1em;
 }
 
-#services, #how-we-work {
+#services,
+#how-we-work {
   .features {
     li {
       display: flex;
@@ -2106,12 +2113,12 @@ body.is-mobile {
     div {
       min-height: 190px;
       align-self: center;
-      width: 70%;
+      // width: 70%;
       padding-bottom: 1em;
       display: flex;
       flex-flow: column;
-	  justify-content: end;
-	  align-items: end;
+      justify-content: end;
+      align-items: end;
 
       img {
         width: 100%;
